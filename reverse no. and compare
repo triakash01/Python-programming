@@ -1,0 +1,14 @@
+num = int(input("Enter number: "))
+original = num
+rev = 0
+
+while num > 0:
+    rev = rev * 10 + num % 10
+    num //= 10
+
+print("Reverse:", rev)
+
+if original == rev:
+    print("Same")
+else:
+    print("Different")

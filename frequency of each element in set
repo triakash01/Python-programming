@@ -1,0 +1,4 @@
+lst = [1, 2, 2, 3, 3, 3]
+
+for item in set(lst):
+    print(item, ":", lst.count(item))
